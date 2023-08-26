@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Your Portfolio</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        .about {
+            margin-bottom: 2em;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .portfolio-item {
+            flex: 1 1 calc(33.33% - 1em);
+            margin: 0.5em;
+            border: 1px solid #ddd;
+            padding: 1em;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <header> 
+   <h1>Varshini</h1> 
+   <p>front end developer</p> 
+  </header> 
+  <nav> <a href="#about">About</a> <a href="#portfolio">Portfolio</a> <a href="#contact">Contact</a> 
+  </nav> 
+  <div class="container"> 
+   <section id="about" class="about"> 
+    <h2>About Me</h2> 
+    <p>I am a graduate currently looking for the job to start my career. I had done couple of projects in my college which are mentioned below. so, I am enthusiastic to work in the organisation.</p> 
+   </section> 
+   <section id="portfolio" class="portfolio"> 
+    <h2>Portfolio</h2> <n>
+     <div class="portfolio-item"> 
+      <h3>Project 1</h3> <b>Fake News Detection Using ML.</b> 
+      <p> <n>
+        Now a days we know how news spread rapidly to millions of users.And they does not even check the authenticity of the news so, to over come that fake news detection is helpful.it is built by using 3 ml models and implemented tfidf vectorizer to each model and the logistic regression gave higher accuracy than other models in detecting the authenticity of the news 
+       </n> </p> 
+     </div>
+    </n> 
+    <section id="contact" class="about"> 
+     <h2>Contact</h2> 
+     <h3><b>xxx@gmail.com</b></h3> 
+    </section>
+   </section>
+  </div> 
+ </body>
+</html>
